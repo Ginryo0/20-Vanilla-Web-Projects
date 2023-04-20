@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  text-align: left;
+  font-size: 40px;
+  background: transparent;
+  position: relative;
+  height: 80vh;
+}
+
+header {
+  padding: 0 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bg {
+  z-index: -1;
+  height: 80vh;
+  width: 1500px;
+  position: absolute;
+  background-color: grey;
+  border-bottom-right-radius: 100px;
+}
+
+main {
+  padding-top: 300px;
+  padding-right: 200px;
+  font-size: 64px;
+  text-align: center;
+}

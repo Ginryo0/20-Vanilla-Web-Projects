@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+* {
+  box-sizing: border-box;
+}
+*:focus {
+  outline: transparent;
+}
+/* 
+#3d1392
+#340791 
+#2b0880 
+#19065a*/
+body {
+  background-color: #5b2eb4;
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  min-height: 100vh;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  margin: auto;
+  padding: 20px;
+}
+
+.btn {
+  cursor: pointer;
+  border: none;
+  background-color: #19065a;
+  border-radius: 4px;
+  color: #eaeaea;
+  font-size: 16px;
+  padding: 8px;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #2b0880;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+.btn-toggle {
+  display: block;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.text-box {
+  width: 70%;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -800px);
+  background-color: #eaeaea;
+  color: #2b0880;
+  padding: 20px;
+  border-radius: 5px;
+  transition: all 0.8s ease-in-out;
+}
+
+.text-box.show {
+  transform: translate(-50%, 0);
+}
+
+.text-box select {
+  background-color: #19065a;
+  color: #eaeaea;
+  width: 100%;
+  height: 30px;
+  border-radius: 5px;
+  border: 0;
+  font-size: 12px;
+}
+
+.text-box textarea {
+  width: 100%;
+  height: 150px;
+  border: 1px solid #2b0880;
+  font-size: 16px;
+  padding: 8px;
+  margin: 15px 0;
+  border-radius: 5px;
+  background-color: #f7f7f7;
+}
+
+.text-box .btn {
+  width: 100%;
+}
+
+.text-box .close {
+  float: right;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+
+.box {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  transition: box-shadow 0.2s ease-out;
+}
+
+.box.active {
+  box-shadow: 0 0 10px 5px #19065a;
+}
+.box img {
+  width: 100%;
+  object-fit: cover;
+  height: 200px;
+}
+
+.box .info {
+  background-color: #19065a;
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+  height: 40px;
+}
+
+@media (max-width: 1100px) {
+  main {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 760px) {
+  main {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 500px) {
+  main {
+    grid-template-columns: 1fr;
+  }
+}

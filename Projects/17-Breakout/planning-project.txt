@@ -1,0 +1,10 @@
+1. Creating canvas context -> x
+2. Creating and drawing ball -> x
+3. creating and drawing paddle = player brick -> x
+4. creating bricks -> x
+5. drawing score -> x
+6. Adding -> update() - Animate -  requestAnimationFrame(cb)  -> x
+7. Moving paddle -> keyboard handlers  -> x
+8. Moving ball + adding boundaries = bouncing  -> x
+9. Score tracking -> Increment / losing - reset -x 
+10. Difficulty Option  -> x
