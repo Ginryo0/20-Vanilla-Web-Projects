@@ -7,10 +7,10 @@
 | 01  |         [Form Validator](./Projects/01-Form-Validator/)         |           [Live Demo](https://form-validator-gryo.netlify.app/)            |
 | 02  |     [Movie Seat Booking](./Projects/02-Movie-Seat-Booking/)     |         [Live Demo](https://movie-seat-booking-gryo.netlify.app/)          |
 | 03  |    [Custom Video Player](./Projects/03-Custom-Video-Player/)    |         [Live Demo](https://movie-seat-booking-gryo.netlify.app/)          |
-| 04  |    [Exchange Rate Calculator](./Projects/04-Exchange-Rate/)     |    [Live Demo](https://vanillawebprojects.com/projects/exchange-rate/)     |
-| 05  |  [DOM Array Methods Project](./Projects/05-DOM-Array-Methods/)  |  [Live Demo](https://vanillawebprojects.com/projects/dom-array-methods/)   |
-| 06  |     [Menu Slider & Modal](./Projects/06-Modal-Menu-Slider/)     |  [Live Demo](https://vanillawebprojects.com/projects/modal-menu-slider/)   |
-| 07  |             [Hangman Game](./Projects/07-Hangman/)              |       [Live Demo](https://vanillawebprojects.com/projects/hangman/)        |
+| 04  |    [Exchange Rate Calculator](./Projects/04-Exchange-Rate/)     |            [Live Demo](https://exchange-calc-gryo.netlify.app/)            |
+| 05  |  [DOM Array Methods Project](./Projects/05-DOM-Array-Methods/)  |          [Live Demo](https://dom-array-methods-gryo.netlify.app/)          |
+| 06  |     [Menu Slider & Modal](./Projects/06-Modal-Menu-Slider/)     |          [Live Demo](https://modal-menu-slider-gryo.netlify.app/)          |
+| 07  |             [Hangman Game](./Projects/07-Hangman/)              |          [Live Demo](https://modal-menu-slider-gryo.netlify.app/)          |
 | 08  |          [Mealfinder App](./Projects/08-Meal-Finder/)           |     [Live Demo](https://vanillawebprojects.com/projects/meal-finder/)      |
 | 09  |        [Expense Tracker](./Projects/09-Expense-Tracker/)        |   [Live Demo](https://vanillawebprojects.com/projects/expense-tracker/)    |
 | 10  |          [Qura'n Player](./Projects/10-Quraan-Player/)          |     [Live Demo](https://vanillawebprojects.com/projects/music-player/)     |

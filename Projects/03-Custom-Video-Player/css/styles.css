@@ -69,3 +69,7 @@ h1 {
     width: 90%;
   }
 }
+
+video {
+  max-height: 80vh;
+}
